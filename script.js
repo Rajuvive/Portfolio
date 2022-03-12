@@ -45,6 +45,7 @@ function vanish(){
 	loader.classList.add("disappear")
 }
 
+
 document.querySelector('.open-btn').onclick =() =>{
 	document.querySelector('.pop-contact').classList.add('active')
 }
