@@ -617,7 +617,7 @@ h6 { font-size: 16px;}
     font-family: 'Niconne', cursive;
     font-size: 35px;
 }
-.proverb.hover{
+.proverb:hover{
     transform:scale3d(1.2,1.2,1.2);
     transition: 0.2s;
 }
