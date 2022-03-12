@@ -659,9 +659,11 @@ h6 { font-size: 16px;}
     border: none;
     cursor: pointer;
 }
+
 .open-btn:hover{
     letter-spacing: 1px;
 }
+
 .open-btn:active{
     box-shadow: none;
     transform: scale(0.9);
