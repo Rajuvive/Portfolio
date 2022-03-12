@@ -44,3 +44,11 @@ window.addEventListener("load", vanish);
 function vanish(){
 	loader.classList.add("disappear")
 }
+
+document.querySelector('.open-btn').onclick =() =>{
+	document.querySelector('.pop-contact').classList.add('active')
+}
+
+document.querySelector('.close-btn').onclick =() =>{
+	document.querySelector('.pop-contact').classList.remove('active')
+}
