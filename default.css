@@ -562,7 +562,7 @@ h6 { font-size: 16px;}
 
 
 #contact-form label{
-	line-height: 2.7em;
+	line-height: 5px;
 }
 
 #contact-form textarea{
@@ -573,22 +573,22 @@ h6 { font-size: 16px;}
 
 .input-field{
 	width: 100%;
-	padding-top: 10px;
-	padding-bottom:10px; 
+	padding-bottom:5px; 
 	background-color: var(--secondaryColor);
 	border-radius: 5px;
 	border:1px solid var(--borderColor);
-	font-size: 14px;
+	font-size: 10px;
+    display: flex;
 }
 
 #submit-btn{
 	margin-top: 10px;
-	width: 100%;
-	padding-top: 10px;
+	width: 100px;
 	padding-bottom:10px; 
 	color: #fff;
 	background-color: var(--buttonColor);
 	border:none;
+    border-radius: 5%;
 }
 
 .btn{
@@ -621,6 +621,52 @@ h6 { font-size: 16px;}
     transform:scale3d(1.2);
     transition: 0.2s;
 }
+
+.pop-contact{
+    height: 400px;
+    width: 400px;
+    position: fixed;
+    bottom: 30px; right: -400px;
+    z-index: 100;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: -4px 10px 10px rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 30px;
+    justify-content: center;
+}
+.pop-contact .close-btn{
+    position: absolute;
+    top: -2px; left: 10px;
+    font-size: 30px;
+    color: #999;
+    cursor: pointer;
+}
+.pop-contact .close-btn:hover{
+    color: #333;
+}
+.pop-contact.active{
+    right: 20px;
+}
+.open-btn{
+    background: var(--mainColor);
+    color: #333;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    box-shadow: -3px 4px 4px -1px rgba(0,0,0,0.25);
+    border: none;
+    cursor: pointer;
+}
+.open-btn:hover{
+    letter-spacing: 1px;
+}
+.open-btn:active{
+    box-shadow: none;
+    transform: scale(0.9);
+}
+
 
 @media screen and (max-width: 1200px){
 	.main{
