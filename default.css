@@ -628,7 +628,7 @@ h6 { font-size: 16px;}
     position: fixed;
     bottom: 30px; right: -400px;
     z-index: 100;
-    background: #fff;
+    background: var(--secondaryColor);
     border-radius: 10px;
     box-shadow: -4px 10px 10px rgba(0,0,0,0.2);
     text-align: center;
@@ -649,8 +649,8 @@ h6 { font-size: 16px;}
     right: 20px;
 }
 .open-btn{
-    background: var(--mainColor);
-    color: #333;
+    background: var(--secondaryColor);
+    color: var(--mainText);
     border-radius: 5px;
     height: 30px;
     width: 100px;
