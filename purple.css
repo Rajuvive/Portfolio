@@ -1,0 +1,26 @@
+
+:root{
+	--mainColor:#FCE7AA;
+	--secondaryColor:#FFF0C5;
+
+	--borderColor:#F6BE00;
+
+	--mainText:#000;
+	--secondaryText:#000000;
+
+	--themeDotBorder:#FFF;
+
+	--previewBg:#FCE7AA;
+	--previewShadow:#ffe883;
+
+
+	--buttonColor:#c2ab47;
+
+	--projectBG: #FFF0C5;
+
+	--projectText: #000;
+
+	--waveUrl: url(images/yellow.png);
+
+
+}

@@ -1,0 +1,22 @@
+:root{
+	--mainColor:#98fb98;
+	--secondaryColor:rgb(203, 250, 203) ;
+
+	--borderColor:#037d50;
+
+	--mainText:rgb(0, 0, 0);
+	--secondaryText:#15202B;
+
+	--themeDotBorder:#FFF;
+
+	--previewBg:rgba(179, 249, 110, 0.897);
+	--previewShadow:#b7fbb2;
+
+
+	--buttonColor:#669966;
+
+	--projectBG: #CCFFCC;
+	--projectText: #000;
+	--waveUrl: url(images/green.png);
+
+}
